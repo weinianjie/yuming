@@ -1,0 +1,20 @@
+         <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+     <html>
+     <head><title></title>
+     <script src="http://61.144.226.124:10001/map/jsapi/sz/index.jsp" type="text/javascript" charset="utf-8"></script>
+     </head>
+     <body  >
+     <div id="mapContainer" style="width:600px; height:600px;"></div>
+
+     <script type="text/javascript" >
+         var map = new MapGIS.SZMap("mapContainer");
+         map.addEvent("load", loadmap);
+         function loadmap(isloader) {
+             map.imageLayer.setData([{ 'x': 132901.359, 'y': 38802.592}]);
+             map.setCenter({ 'x': 132901.359, 'y': 38802.592 });
+         }
+     </script>
+
+     </body>
+     </html>
+        

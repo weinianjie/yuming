@@ -1,0 +1,100 @@
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001346s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001497s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain_major` [ RunTime:0.003795s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain_major` ORDER BY id asc LIMIT 30   [ RunTime:0.006090s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001582s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001703s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.013451s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013567s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.000854s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.000900s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000682s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000916s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003560s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000982s ]
+[ 2012-10-15T00:10:20+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001052s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001060s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001276s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain_major` [ RunTime:0.003995s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain_major` ORDER BY id asc LIMIT 30   [ RunTime:0.006751s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000594s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000694s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.011281s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011414s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.000397s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.000440s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000255s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000462s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001749s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000492s ]
+[ 2012-10-15T00:10:35+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000564s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000908s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001101s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain_major` [ RunTime:0.004217s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain_major` ORDER BY id asc LIMIT 30   [ RunTime:0.006136s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000519s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000606s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.010256s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010442s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.000397s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.000454s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000248s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000455s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001749s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000462s ]
+[ 2012-10-15T00:10:36+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000532s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.015497s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.015747s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain_major` [ RunTime:0.107602s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain_major` ORDER BY id asc LIMIT 30   [ RunTime:0.006468s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.018734s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.018866s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.079497s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.079637s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.004168s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.004660s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.003557s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.004937s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.017688s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.004006s ]
+[ 2012-10-15T16:37:28+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.004105s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000641s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000782s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain_major` [ RunTime:0.003850s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain_major` ORDER BY id asc LIMIT 30   [ RunTime:0.007173s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000575s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000655s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.010516s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010644s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.000418s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.000453s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000262s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000464s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001798s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000465s ]
+[ 2012-10-15T16:37:55+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000536s ]

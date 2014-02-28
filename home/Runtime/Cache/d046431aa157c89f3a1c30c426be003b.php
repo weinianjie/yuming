@@ -4,7 +4,8 @@
 <title>未注册域名列表</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="" />
-<link type="text/css" rel="stylesheet" href="/yuming/public/styles/default.css" />
+<!-- <link type="text/css" rel="stylesheet" href="/yuming/public/styles/default.css" /> -->
+<link type="text/css" rel="stylesheet" href="public/styles/default.css" />
 </head>
 <body>
 	<div id="wrapper" style="margin:0 auto;">

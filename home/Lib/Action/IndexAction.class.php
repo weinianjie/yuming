@@ -12,6 +12,16 @@ class IndexAction extends Action {
         
         $this->assign('page', $page->show());
         $this->assign('domainList', $domainList);
+        C('TOKEN_ON',false);
+        
+        $keyword = $_GET['keyword'];
+        $com = $_GET['com'];
+        $cn = $_GET['cn'];
+        $net = $_GET['net'];
+        $this->assign('keyword', $keyword);
+        $this->assign('com', $com);
+        $this->assign('cn', $cn);
+        $this->assign('net', $net);
         $this->display();
     }
 }

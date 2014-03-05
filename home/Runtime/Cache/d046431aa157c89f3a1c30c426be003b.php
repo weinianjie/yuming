@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>未注册域名列表</title>
+<title>视频列表</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="" />
 <!-- <link type="text/css" rel="stylesheet" href="/yuming/public/styles/default.css" /> -->
@@ -12,28 +12,46 @@
 		<div id="header">
 			<div class="logo">
 				<a href="#" title="返回首页">
-					<img src="http://cimg2.163.com/help/v2/img/logo1.gif">
+					<img src="public/images/logo.png">
 				</a>
 			</div>
-			<ul class="navigater">
+<!-- 			<ul class="navigater">
 				<li><a href="">首页</a></li>
 				<li><a href="">域名查询</a></li>
-			</ul>
+			</ul> -->
 		</div>
-		
+		<?php echo ($fk); ?>
 		<div>
-			<table cellspacing="1">
+			<form action="">
+				关键字：
+				<input type="text" name="keyword" />
+				<br/>
+				后缀：
+				<input type="radio" name="org" value="com" />com
+				<input type="radio" name="org" value="cn" />cn
+				<input type="radio" name="org" value="net" />net
+				<br/>
+				<input type="submit" />
+			</form>
+			<!-- 域名26网 -->
+			<!-- 查询未注册域名的专门网站 -->
+			<!-- 不知道用什么域名好？想到的域名都被注册了？还在费脑汁想么，全部列出可用的任你选 -->
+			<table cellspacing="1" class="domainList">
 				<tr>
-					<th>序号</th>
-					<th>域名</th>
-					<th>机构名</th>
-					<th>更新时间</th>
+					<!-- <th>序号</th> -->
+					<th width="122px">域名</th>
+					<th width="260px">机构名</th>
+					<th width="240px">更新时间</th>
+					<th>操作</th>
+					<th>点击次数</th>
 				</tr>
-				<?php if(is_array($domainList)): foreach($domainList as $key=>$domain): ?><tr>
-						<td><?php echo ($domain["id"]); ?></td>
+				<?php if(is_array($domainList)): foreach($domainList as $key=>$domain): if($key % 2 == 0): ?><tr class="odd"><?php else: ?><tr><?php endif; ?>
+						<!-- <td><?php echo ($domain["id"]); ?></td> -->
 						<td><?php echo ($domain["name"]); ?></td>
 						<td><?php echo ($domain["org"]); ?></td>
 						<td><?php echo ($domain["uts"]); ?></td>
+						<td></td>
+						<td></td>
 				    </tr><?php endforeach; endif; ?>
 			</table>
 		</div>

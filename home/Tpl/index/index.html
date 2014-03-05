@@ -4,29 +4,47 @@
 		<div id="header">
 			<div class="logo">
 				<a href="#" title="返回首页">
-					<img src="http://cimg2.163.com/help/v2/img/logo1.gif">
+					<img src="public/images/logo.png">
 				</a>
 			</div>
-			<ul class="navigater">
+<!-- 			<ul class="navigater">
 				<li><a href="">首页</a></li>
 				<li><a href="">域名查询</a></li>
-			</ul>
+			</ul> -->
 		</div>
-		
+		{$fk}
 		<div>
-			<table cellspacing="1">
+			<form action="">
+				关键字：
+				<input type="text" name="keyword" />
+				<br/>
+				后缀：
+				<input type="radio" name="org" value="com" />com
+				<input type="radio" name="org" value="cn" />cn
+				<input type="radio" name="org" value="net" />net
+				<br/>
+				<input type="submit" />
+			</form>
+			<!-- 域名26网 -->
+			<!-- 查询未注册域名的专门网站 -->
+			<!-- 不知道用什么域名好？想到的域名都被注册了？还在费脑汁想么，全部列出可用的任你选 -->
+			<table cellspacing="1" class="domainList">
 				<tr>
-					<th>序号</th>
-					<th>域名</th>
-					<th>机构名</th>
-					<th>更新时间</th>
+					<!-- <th>序号</th> -->
+					<th width="122px">域名</th>
+					<th width="260px">机构名</th>
+					<th width="240px">更新时间</th>
+					<th>操作</th>
+					<th>点击次数</th>
 				</tr>
 				<foreach name="domainList" item="domain">
-					<tr>
-						<td>{$domain.id}</td>
+					<if condition="$key % 2 eq 0"><tr class="odd"><else /><tr></if>
+						<!-- <td>{$domain.id}</td> -->
 						<td>{$domain.name}</td>
 						<td>{$domain.org}</td>
 						<td>{$domain.uts}</td>
+						<td></td>
+						<td></td>
 				    </tr>
 				</foreach>
 			</table>

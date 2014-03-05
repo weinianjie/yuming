@@ -5,6 +5,10 @@ class IndexAction extends Action {
         $domain = M('domain');
         $domainList = $domain->field(array('id', 'name', 'org', 'uts'))->order('id asc')->limit('30')->select();
         $this->assign('domainList', $domainList);
+        C('TOKEN_ON',false);
+//        $fk = $this->_param('keyword');
+        $fk = $_GET['keyword'];
+        $this->assign('fk', $fk);
         $this->display();
     }
 }

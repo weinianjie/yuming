@@ -6,9 +6,15 @@ class IndexAction extends Action {
         $domainList = $domain->field(array('id', 'name', 'org', 'uts'))->order('id asc')->limit('30')->select();
         $this->assign('domainList', $domainList);
         C('TOKEN_ON',false);
-//        $fk = $this->_param('keyword');
-        $fk = $_GET['keyword'];
-        $this->assign('fk', $fk);
+        
+        $keyword = $_GET['keyword'];
+        $com = $_GET['com'];
+        $cn = $_GET['cn'];
+        $net = $_GET['net'];
+        $this->assign('keyword', $keyword);
+        $this->assign('com', $com);
+        $this->assign('cn', $cn);
+        $this->assign('net', $net);
         $this->display();
     }
 }

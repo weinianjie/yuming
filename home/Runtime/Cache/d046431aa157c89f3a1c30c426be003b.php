@@ -19,17 +19,15 @@
 				<li><a href="">首页</a></li>
 				<li><a href="">域名查询</a></li>
 			</ul> -->
-		</div>
-		<?php echo ($fk); ?>
+		</div>		
 		<div>
 			<form action="">
-				关键字：
-				<input type="text" name="keyword" />
+				<input type="text" name="keyword" value="<?php echo ($keyword); ?>" />
 				<br/>
 				后缀：
-				<input type="radio" name="org" value="com" />com
-				<input type="radio" name="org" value="cn" />cn
-				<input type="radio" name="org" value="net" />net
+				<input type="checkbox" name="com" value="1" <?php if($com == 1): ?>checked<?php endif; ?> />com
+				<input type="checkbox" name="cn" value="1" <?php if($cn == 1): ?>checked<?php endif; ?> />cn
+				<input type="checkbox" name="net" value="1" <?php if($net == 1): ?>checked<?php endif; ?> />net
 				<br/>
 				<input type="submit" />
 			</form>

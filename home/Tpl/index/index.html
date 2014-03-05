@@ -11,17 +11,15 @@
 				<li><a href="">首页</a></li>
 				<li><a href="">域名查询</a></li>
 			</ul> -->
-		</div>
-		{$fk}
+		</div>		
 		<div>
 			<form action="">
-				关键字：
-				<input type="text" name="keyword" />
+				<input type="text" name="keyword" value="{$keyword}" />
 				<br/>
 				后缀：
-				<input type="radio" name="org" value="com" />com
-				<input type="radio" name="org" value="cn" />cn
-				<input type="radio" name="org" value="net" />net
+				<input type="checkbox" name="com" value="1" <if condition="$com eq 1">checked</if> />com
+				<input type="checkbox" name="cn" value="1" <if condition="$cn eq 1">checked</if> />cn
+				<input type="checkbox" name="net" value="1" <if condition="$net eq 1">checked</if> />net
 				<br/>
 				<input type="submit" />
 			</form>

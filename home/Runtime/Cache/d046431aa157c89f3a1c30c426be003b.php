@@ -36,6 +36,7 @@
 						<td><?php echo ($domain["uts"]); ?></td>
 				    </tr><?php endforeach; endif; ?>
 			</table>
+			<div class="result page"><?php echo ($page); ?></div>
 		</div>
 		
 		<div>

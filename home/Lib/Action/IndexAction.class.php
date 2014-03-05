@@ -3,6 +3,7 @@
 class IndexAction extends Action {
     public function index(){
     	import('ORG.Util.Page');
+    	C('TOKEN_ON',false);
         $domainDao = M('domain');
         $count = $domainDao->count();
         $page = new Page($count);
@@ -12,7 +13,6 @@ class IndexAction extends Action {
         
         $this->assign('page', $page->show());
         $this->assign('domainList', $domainList);
-        C('TOKEN_ON',false);
         
         $keyword = $_GET['keyword'];
         $com = $_GET['com'];

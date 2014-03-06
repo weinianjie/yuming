@@ -11,7 +11,7 @@
 	<div id="wrapper" style="margin:0 auto;">
 		<div id="header">
 			<div class="logo">
-				<a href="#" title="返回首页">
+				<a href="./" title="返回首页">
 					<img src="public/images/logo.png">
 				</a>
 			</div>
@@ -52,6 +52,7 @@
 						<td></td>
 				    </tr><?php endforeach; endif; ?>
 			</table>
+			<div class="result page"><?php echo ($page); ?></div>
 		</div>
 		
 		<div>

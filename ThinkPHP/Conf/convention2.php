@@ -55,10 +55,10 @@ return  array(
 
     /* 数据库设置 */
     'DB_TYPE'               => 'mysql',     // 数据库类型
-	'DB_HOST'               => '127.0.0.1', // 服务器地址
-	'DB_NAME'               => 'mess',          // 数据库名
-	'DB_USER'               => 'weinianjie',      // 用户名
-	'DB_PWD'                => '1996815',          // 密码
+	'DB_HOST'               => '192.253.225.115', // 服务器地址
+	'DB_NAME'               => 'a0226150238',          // 数据库名
+	'DB_USER'               => 'a0226150238',      // 用户名
+	'DB_PWD'                => '92395451',          // 密码
 	'DB_PORT'               => '3306',        // 端口
 	'DB_PREFIX'             => '',    // 数据库表前缀
     'DB_FIELDTYPE_CHECK'    => false,       // 是否进行字段类型检查

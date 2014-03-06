@@ -1,0 +1,1048 @@
+[ 2014-03-05T11:17:16+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T11:17:16+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004677s ]
+[ 2014-03-05T11:17:16+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004811s ]
+[ 2014-03-05T11:17:22+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.180161s ]
+[ 2014-03-05T11:17:22+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.179202s ]
+[ 2014-03-05T11:17:22+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T11:17:22+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.009222s ]
+[ 2014-03-05T11:17:22+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.009361s ]
+[ 2014-03-05T11:17:22+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T11:17:23+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.070374s ]
+[ 2014-03-05T11:17:23+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.070496s ]
+[ 2014-03-05T11:17:23+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T11:17:23+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.004805s ]
+[ 2014-03-05T11:17:23+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.005358s ]
+[ 2014-03-05T11:17:23+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.004538s ]
+[ 2014-03-05T11:17:23+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.005474s ]
+[ 2014-03-05T11:17:23+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.020471s ]
+[ 2014-03-05T11:17:23+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T11:17:23+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.004561s ]
+[ 2014-03-05T11:17:23+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.004667s ]
+[ 2014-03-05T14:06:19+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:06:19+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001200s ]
+[ 2014-03-05T14:06:19+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001313s ]
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172520s ]
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.172995s ]
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.003660s ]
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003778s ]
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.024236s ]
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024360s ]
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.001337s ]
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.001308s ]
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001115s ]
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001406s ]
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005366s ]
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001351s ]
+[ 2014-03-05T14:06:26+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001421s ]
+[ 2014-03-05T14:21:18+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:21:18+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002685s ]
+[ 2014-03-05T14:21:18+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002912s ]
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.173080s ]
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.171868s ]
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.003633s ]
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003762s ]
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.028679s ]
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.028837s ]
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.002053s ]
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.001108s ]
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000921s ]
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001085s ]
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005411s ]
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001092s ]
+[ 2014-03-05T14:21:26+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001149s ]
+[ 2014-03-05T14:22:30+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:22:30+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001182s ]
+[ 2014-03-05T14:22:30+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001410s ]
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172424s ]
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.172615s ]
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000953s ]
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001147s ]
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.021103s ]
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021252s ]
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.000673s ]
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.000764s ]
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000449s ]
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000779s ]
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002948s ]
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000888s ]
+[ 2014-03-05T14:22:36+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000995s ]
+[ 2014-03-05T14:23:17+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:23:17+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001004s ]
+[ 2014-03-05T14:23:17+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001184s ]
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.173002s ]
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.186476s ]
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000876s ]
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000987s ]
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.021869s ]
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022050s ]
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.001047s ]
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.000819s ]
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000457s ]
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000774s ]
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003443s ]
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000776s ]
+[ 2014-03-05T14:23:23+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000877s ]
+[ 2014-03-05T14:23:40+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:23:40+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002283s ]
+[ 2014-03-05T14:23:40+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002459s ]
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.180072s ]
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.179490s ]
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.003640s ]
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003782s ]
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.028444s ]
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.028555s ]
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.001054s ]
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.000996s ]
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000844s ]
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004045s ]
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001013s ]
+[ 2014-03-05T14:23:46+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001066s ]
+[ 2014-03-05T14:25:05+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:25:05+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000569s ]
+[ 2014-03-05T14:25:05+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000680s ]
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.173616s ]
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.174706s ]
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000881s ]
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000990s ]
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.017345s ]
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017530s ]
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.000981s ]
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.001157s ]
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000726s ]
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001223s ]
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004578s ]
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001005s ]
+[ 2014-03-05T14:25:11+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001150s ]
+[ 2014-03-05T14:30:28+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:30:28+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002267s ]
+[ 2014-03-05T14:30:28+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002453s ]
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.321535s ]
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.307455s ]
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.003861s ]
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003992s ]
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.026250s ]
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.026363s ]
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.001039s ]
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.001056s ]
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000868s ]
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001031s ]
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004150s ]
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001019s ]
+[ 2014-03-05T14:30:35+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001075s ]
+[ 2014-03-05T14:34:14+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:34:14+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001375s ]
+[ 2014-03-05T14:34:14+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001490s ]
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.269967s ]
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.263918s ]
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.003663s ]
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003789s ]
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.024496s ]
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024587s ]
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.001096s ]
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.001064s ]
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000911s ]
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001091s ]
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004324s ]
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001166s ]
+[ 2014-03-05T14:34:25+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001233s ]
+[ 2014-03-05T14:37:43+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:37:43+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002253s ]
+[ 2014-03-05T14:37:43+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002436s ]
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.173412s ]
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.172053s ]
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.003609s ]
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003726s ]
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant st - assumed 'st' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | NOTIC: [8] Use of undefined constant index - assumed 'index' d046431aa157c89f3a1c30c426be003b.php 第 32 行.
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.027294s ]
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.027383s ]
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.001075s ]
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.001066s ]
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000902s ]
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001078s ]
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004279s ]
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001067s ]
+[ 2014-03-05T14:37:52+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001124s ]
+[ 2014-03-05T14:38:50+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:38:50+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001064s ]
+[ 2014-03-05T14:38:50+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001287s ]
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172492s ]
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.171895s ]
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000902s ]
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001015s ]
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.023594s ]
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.023769s ]
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.000951s ]
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.001120s ]
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000646s ]
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001146s ]
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004295s ]
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001133s ]
+[ 2014-03-05T14:38:56+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001304s ]
+[ 2014-03-05T14:42:25+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:42:25+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001262s ]
+[ 2014-03-05T14:42:25+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001370s ]
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.183180s ]
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.172813s ]
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.003481s ]
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003596s ]
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.026313s ]
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.026431s ]
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.001235s ]
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.001230s ]
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001285s ]
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001256s ]
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005227s ]
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001232s ]
+[ 2014-03-05T14:42:31+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001298s ]
+[ 2014-03-05T14:43:14+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:43:14+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000470s ]
+[ 2014-03-05T14:43:14+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000562s ]
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.324240s ]
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.318194s ]
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000882s ]
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000996s ]
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.016833s ]
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016973s ]
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.000675s ]
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.000763s ]
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000457s ]
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000860s ]
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003102s ]
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000891s ]
+[ 2014-03-05T14:43:22+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001001s ]
+[ 2014-03-05T14:44:00+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:44:00+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000508s ]
+[ 2014-03-05T14:44:00+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000604s ]
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.313306s ]
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.326707s ]
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000884s ]
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000995s ]
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.021566s ]
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021710s ]
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.000694s ]
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.000771s ]
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000454s ]
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000977s ]
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003221s ]
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001161s ]
+[ 2014-03-05T14:44:10+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001339s ]
+[ 2014-03-05T14:44:08+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:44:08+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001415s ]
+[ 2014-03-05T14:44:08+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001538s ]
+[ 2014-03-05T14:44:18+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.319312s ]
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.319201s ]
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.003570s ]
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003693s ]
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.030461s ]
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.030568s ]
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.001013s ]
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.001101s ]
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000873s ]
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001008s ]
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004147s ]
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001066s ]
+[ 2014-03-05T14:44:19+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001134s ]
+[ 2014-03-05T14:46:20+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:46:20+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002300s ]
+[ 2014-03-05T14:46:20+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002485s ]
+[ 2014-03-05T14:46:26+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.195515s ]
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.199802s ]
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.003612s ]
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003729s ]
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.022121s ]
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022233s ]
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.001244s ]
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.001150s ]
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000972s ]
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001150s ]
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004695s ]
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001161s ]
+[ 2014-03-05T14:46:27+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001222s ]
+[ 2014-03-05T14:47:14+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:47:14+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000946s ]
+[ 2014-03-05T14:47:14+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001119s ]
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.271143s ]
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.262690s ]
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000851s ]
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000961s ]
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.016998s ]
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017139s ]
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.000666s ]
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.000812s ]
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000633s ]
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000879s ]
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003341s ]
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000798s ]
+[ 2014-03-05T14:47:21+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000898s ]
+[ 2014-03-05T14:49:12+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:49:12+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001113s ]
+[ 2014-03-05T14:49:12+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001209s ]
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.173495s ]
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.172074s ]
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.003579s ]
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003712s ]
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.022449s ]
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022565s ]
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.001240s ]
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.001244s ]
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001039s ]
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001263s ]
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004971s ]
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001254s ]
+[ 2014-03-05T14:49:18+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001320s ]
+[ 2014-03-05T14:49:43+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:49:43+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001013s ]
+[ 2014-03-05T14:49:43+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001205s ]
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.233291s ]
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.233280s ]
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000873s ]
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000985s ]
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.022825s ]
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022969s ]
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.000673s ]
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.000779s ]
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000489s ]
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001116s ]
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003401s ]
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001228s ]
+[ 2014-03-05T14:49:51+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001407s ]
+[ 2014-03-05T14:50:09+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:50:09+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000468s ]
+[ 2014-03-05T14:50:09+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000566s ]
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.255460s ]
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.257121s ]
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000873s ]
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000984s ]
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.017032s ]
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017191s ]
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.000766s ]
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.000778s ]
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000445s ]
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000772s ]
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003074s ]
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000786s ]
+[ 2014-03-05T14:50:16+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000890s ]
+[ 2014-03-05T14:51:03+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:51:03+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001015s ]
+[ 2014-03-05T14:51:03+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001194s ]
+[ 2014-03-05T14:51:09+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.223554s ]
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.231211s ]
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000888s ]
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001006s ]
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.022875s ]
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.023021s ]
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.000680s ]
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.000769s ]
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000450s ]
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000780s ]
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002966s ]
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000804s ]
+[ 2014-03-05T14:51:10+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000906s ]
+[ 2014-03-05T14:52:08+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T14:52:08+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001449s ]
+[ 2014-03-05T14:52:08+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001571s ]
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.174888s ]
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.172009s ]
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.003641s ]
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003758s ]
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.025545s ]
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.025691s ]
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.002040s ]
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.002079s ]
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001779s ]
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.002079s ]
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008281s ]
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.002201s ]
+[ 2014-03-05T14:52:15+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.002321s ]
+[ 2014-03-05T15:41:36+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T15:41:36+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001131s ]
+[ 2014-03-05T15:41:36+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001229s ]
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.180103s ]
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.179686s ]
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001746s ]
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001807s ]
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.015284s ]
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015370s ]
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.001040s ]
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.001050s ]
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001344s ]
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001195s ]
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004826s ]
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001100s ]
+[ 2014-03-05T15:41:42+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001164s ]
+[ 2014-03-05T15:41:46+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T15:41:46+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000473s ]
+[ 2014-03-05T15:41:46+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000566s ]
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.199631s ]
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.199338s ]
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run LocationTemplate Behavior [ RunTime:0.000865s ]
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000976s ]
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ParseTemplate Behavior [ RunTime:0.017741s ]
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017888s ]
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ContentReplace Behavior [ RunTime:0.000750s ]
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run TokenBuild Behavior [ RunTime:0.000776s ]
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000453s ]
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ShowRuntime Behavior [ RunTime:0.000788s ]
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003054s ]
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000799s ]
+[ 2014-03-05T15:41:52+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000905s ]
+[ 2014-03-05T15:44:02+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T15:44:02+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002458s ]
+[ 2014-03-05T15:44:02+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002655s ]
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.230172s ]
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.239460s ]
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run LocationTemplate Behavior [ RunTime:0.003543s ]
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003669s ]
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ParseTemplate Behavior [ RunTime:0.024872s ]
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024981s ]
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ContentReplace Behavior [ RunTime:0.001091s ]
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run TokenBuild Behavior [ RunTime:0.001020s ]
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000848s ]
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ShowRuntime Behavior [ RunTime:0.001459s ]
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004619s ]
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001249s ]
+[ 2014-03-05T15:44:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001331s ]
+[ 2014-03-05T15:45:38+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T15:45:38+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000539s ]
+[ 2014-03-05T15:45:38+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000645s ]
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.180042s ]
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.179379s ]
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run LocationTemplate Behavior [ RunTime:0.000856s ]
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000971s ]
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ParseTemplate Behavior [ RunTime:0.021101s ]
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021223s ]
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ContentReplace Behavior [ RunTime:0.000496s ]
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run TokenBuild Behavior [ RunTime:0.000496s ]
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000297s ]
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ShowRuntime Behavior [ RunTime:0.000513s ]
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001996s ]
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000500s ]
+[ 2014-03-05T15:45:44+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000567s ]
+[ 2014-03-05T15:47:41+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T15:47:41+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001169s ]
+[ 2014-03-05T15:47:41+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001275s ]
+[ 2014-03-05T15:47:46+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172349s ]
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.171860s ]
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run LocationTemplate Behavior [ RunTime:0.003675s ]
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003798s ]
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ParseTemplate Behavior [ RunTime:0.024785s ]
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024909s ]
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ContentReplace Behavior [ RunTime:0.001168s ]
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run TokenBuild Behavior [ RunTime:0.001069s ]
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000910s ]
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ShowRuntime Behavior [ RunTime:0.001172s ]
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004491s ]
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001077s ]
+[ 2014-03-05T15:47:47+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001134s ]
+[ 2014-03-05T15:53:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T15:53:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001092s ]
+[ 2014-03-05T15:53:12+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001191s ]
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.181694s ]
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.178317s ]
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run LocationTemplate Behavior [ RunTime:0.003590s ]
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003709s ]
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ParseTemplate Behavior [ RunTime:0.024380s ]
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024500s ]
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ContentReplace Behavior [ RunTime:0.001377s ]
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run TokenBuild Behavior [ RunTime:0.001320s ]
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001142s ]
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ShowRuntime Behavior [ RunTime:0.001374s ]
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005413s ]
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001342s ]
+[ 2014-03-05T15:53:18+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001411s ]
+[ 2014-03-05T15:53:59+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T15:53:59+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001337s ]
+[ 2014-03-05T15:53:59+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001448s ]
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172264s ]
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.171994s ]
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run LocationTemplate Behavior [ RunTime:0.003671s ]
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003830s ]
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ParseTemplate Behavior [ RunTime:0.026127s ]
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.026283s ]
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ContentReplace Behavior [ RunTime:0.002363s ]
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run TokenBuild Behavior [ RunTime:0.001301s ]
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000860s ]
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ShowRuntime Behavior [ RunTime:0.001024s ]
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005772s ]
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001236s ]
+[ 2014-03-05T15:54:05+08:00 ] /yuming/?keyword=&__hash__=d41440d5a09847a5bbad629b7783977a_2ff2ba1a6b57281b8ace94087dd51c12 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001302s ]
+[ 2014-03-05T16:16:57+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T16:16:57+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001098s ]
+[ 2014-03-05T16:16:57+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001208s ]
+[ 2014-03-05T16:17:03+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.173350s ]
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.171500s ]
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Run LocationTemplate Behavior [ RunTime:0.003614s ]
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003742s ]
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Run ParseTemplate Behavior [ RunTime:0.025375s ]
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.025527s ]
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Run ContentReplace Behavior [ RunTime:0.002113s ]
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Run TokenBuild Behavior [ RunTime:0.002095s ]
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001760s ]
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Run ShowRuntime Behavior [ RunTime:0.001118s ]
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007354s ]
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001023s ]
+[ 2014-03-05T16:17:04+08:00 ] /yuming/?keyword=&org=com&scanDate=&__hash__=d81fd64f15d89013bf5e46554007755e_db69b3da0656d9a3c19f5e4b4248dd29 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001077s ]
+[ 2014-03-05T16:26:55+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T16:26:55+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001486s ]
+[ 2014-03-05T16:26:55+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001641s ]
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | SQL: SHOW COLUMNS FROM `domain` [ RunTime:2.322119s ]
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.344160s ]
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run LocationTemplate Behavior [ RunTime:0.003809s ]
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003952s ]
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run ParseTemplate Behavior [ RunTime:0.031617s ]
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.031771s ]
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run ContentReplace Behavior [ RunTime:0.002127s ]
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run TokenBuild Behavior [ RunTime:0.002198s ]
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001752s ]
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run ShowRuntime Behavior [ RunTime:0.002114s ]
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008500s ]
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002102s ]
+[ 2014-03-05T16:27:07+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002215s ]
+[ 2014-03-05T16:30:18+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T16:30:18+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001465s ]
+[ 2014-03-05T16:30:18+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001587s ]
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172364s ]
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.171551s ]
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run LocationTemplate Behavior [ RunTime:0.003569s ]
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003720s ]
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run ParseTemplate Behavior [ RunTime:0.032473s ]
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.032620s ]
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run ContentReplace Behavior [ RunTime:0.002078s ]
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run TokenBuild Behavior [ RunTime:0.002861s ]
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001948s ]
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run ShowRuntime Behavior [ RunTime:0.002336s ]
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.009651s ]
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002466s ]
+[ 2014-03-05T16:30:24+08:00 ] /yuming/?keyword=&scanDate=&__hash__=a3290b8eeb4bd91198d32905f67cb7f5_118ac2efdb6b0a0daad807266fbe1f21 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002616s ]
+[ 2014-03-05T16:35:37+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T16:35:37+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001108s ]
+[ 2014-03-05T16:35:37+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001211s ]
+[ 2014-03-05T16:35:43+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172369s ]
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.463596s ]
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Run LocationTemplate Behavior [ RunTime:0.003649s ]
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Tag[ view_template ] --END-- [ RunTime:0.003777s ]
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Run ParseTemplate Behavior [ RunTime:0.024794s ]
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Tag[ view_parse ] --END-- [ RunTime:0.024904s ]
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Run ContentReplace Behavior [ RunTime:0.001022s ]
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Run TokenBuild Behavior [ RunTime:0.001012s ]
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000861s ]
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Run ShowRuntime Behavior [ RunTime:0.001026s ]
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004070s ]
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Run ShowPageTrace Behavior [ RunTime:0.001088s ]
+[ 2014-03-05T16:35:44+08:00 ] /yuming/?keyword=&__hash__=03f0abf6bb77eee09dc96a5951c0ff67_eb4a62d0cf59a0132ba42ca383cb927a | INFO: Tag[ view_end ] --END-- [ RunTime:0.001159s ]
+[ 2014-03-05T16:35:52+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T16:35:52+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001320s ]
+[ 2014-03-05T16:35:52+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001426s ]
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172263s ]
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.171493s ]
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run LocationTemplate Behavior [ RunTime:0.003615s ]
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_template ] --END-- [ RunTime:0.003762s ]
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run ParseTemplate Behavior [ RunTime:0.025586s ]
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_parse ] --END-- [ RunTime:0.025738s ]
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run ContentReplace Behavior [ RunTime:0.002031s ]
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run TokenBuild Behavior [ RunTime:0.002051s ]
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001771s ]
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run ShowRuntime Behavior [ RunTime:0.001838s ]
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007967s ]
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run ShowPageTrace Behavior [ RunTime:0.001333s ]
+[ 2014-03-05T16:36:00+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_end ] --END-- [ RunTime:0.001402s ]
+[ 2014-03-05T16:37:32+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T16:37:32+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000487s ]
+[ 2014-03-05T16:37:32+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000582s ]
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.174413s ]
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.174082s ]
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run LocationTemplate Behavior [ RunTime:0.000838s ]
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_template ] --END-- [ RunTime:0.000951s ]
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run ParseTemplate Behavior [ RunTime:0.022798s ]
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022942s ]
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run ContentReplace Behavior [ RunTime:0.000683s ]
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run TokenBuild Behavior [ RunTime:0.000757s ]
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000477s ]
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run ShowRuntime Behavior [ RunTime:0.000808s ]
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003015s ]
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Run ShowPageTrace Behavior [ RunTime:0.000787s ]
+[ 2014-03-05T16:37:38+08:00 ] /yuming/?keyword=&org=com&__hash__=02fae9957855d0dc742e8992fd10e607_00409f36fe7cbfc8fa57e0d8e149ea4d | INFO: Tag[ view_end ] --END-- [ RunTime:0.000889s ]
+[ 2014-03-05T16:39:12+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T16:39:12+08:00 ] /yuming/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001088s ]
+[ 2014-03-05T16:39:12+08:00 ] /yuming/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001186s ]
+[ 2014-03-05T16:39:18+08:00 ] /yuming/ | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172298s ]
+[ 2014-03-05T16:39:18+08:00 ] /yuming/ | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.172076s ]
+[ 2014-03-05T16:39:18+08:00 ] /yuming/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T16:39:18+08:00 ] /yuming/ | INFO: Run LocationTemplate Behavior [ RunTime:0.003546s ]
+[ 2014-03-05T16:39:18+08:00 ] /yuming/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003666s ]
+[ 2014-03-05T16:39:18+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T16:39:19+08:00 ] /yuming/ | INFO: Run ParseTemplate Behavior [ RunTime:0.028159s ]
+[ 2014-03-05T16:39:19+08:00 ] /yuming/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.028309s ]
+[ 2014-03-05T16:39:19+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T16:39:19+08:00 ] /yuming/ | INFO: Run ContentReplace Behavior [ RunTime:0.002127s ]
+[ 2014-03-05T16:39:19+08:00 ] /yuming/ | INFO: Run TokenBuild Behavior [ RunTime:0.001521s ]
+[ 2014-03-05T16:39:19+08:00 ] /yuming/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000908s ]
+[ 2014-03-05T16:39:19+08:00 ] /yuming/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001099s ]
+[ 2014-03-05T16:39:19+08:00 ] /yuming/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005883s ]
+[ 2014-03-05T16:39:19+08:00 ] /yuming/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T16:39:19+08:00 ] /yuming/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001078s ]
+[ 2014-03-05T16:39:19+08:00 ] /yuming/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001135s ]
+[ 2014-03-05T16:39:21+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T16:39:21+08:00 ] /yuming/?keyword=&org=com | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000457s ]
+[ 2014-03-05T16:39:21+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000542s ]
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172106s ]
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.171807s ]
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Run LocationTemplate Behavior [ RunTime:0.000924s ]
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_template ] --END-- [ RunTime:0.001043s ]
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Run ParseTemplate Behavior [ RunTime:0.017832s ]
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017993s ]
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Run ContentReplace Behavior [ RunTime:0.000661s ]
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Run TokenBuild Behavior [ RunTime:0.000651s ]
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000445s ]
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Run ShowRuntime Behavior [ RunTime:0.000793s ]
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002834s ]
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Run ShowPageTrace Behavior [ RunTime:0.000779s ]
+[ 2014-03-05T16:39:27+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_end ] --END-- [ RunTime:0.000881s ]
+[ 2014-03-05T16:43:38+08:00 ] /yuming/?keyword=&org=com | ERR: (ThinkException) Action:_param您所请求的方法不存在！
+[ 2014-03-05T16:44:22+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T16:44:22+08:00 ] /yuming/?keyword=&org=com | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000955s ]
+[ 2014-03-05T16:44:22+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001133s ]
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172115s ]
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.171982s ]
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Run LocationTemplate Behavior [ RunTime:0.004518s ]
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_template ] --END-- [ RunTime:0.004696s ]
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Run ParseTemplate Behavior [ RunTime:0.032115s ]
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_parse ] --END-- [ RunTime:0.032228s ]
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Run ContentReplace Behavior [ RunTime:0.001108s ]
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Run TokenBuild Behavior [ RunTime:0.000954s ]
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000846s ]
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Run ShowRuntime Behavior [ RunTime:0.001023s ]
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004090s ]
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Run ShowPageTrace Behavior [ RunTime:0.001024s ]
+[ 2014-03-05T16:44:28+08:00 ] /yuming/?keyword=&org=com | INFO: Tag[ view_end ] --END-- [ RunTime:0.001079s ]
+[ 2014-03-05T16:44:33+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T16:44:33+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001244s ]
+[ 2014-03-05T16:44:33+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001380s ]
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172670s ]
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.172022s ]
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run LocationTemplate Behavior [ RunTime:0.003546s ]
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_template ] --END-- [ RunTime:0.003667s ]
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ParseTemplate Behavior [ RunTime:0.021832s ]
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021944s ]
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ContentReplace Behavior [ RunTime:0.001007s ]
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run TokenBuild Behavior [ RunTime:0.000937s ]
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000852s ]
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ShowRuntime Behavior [ RunTime:0.001049s ]
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003997s ]
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ShowPageTrace Behavior [ RunTime:0.001016s ]
+[ 2014-03-05T16:44:40+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_end ] --END-- [ RunTime:0.001069s ]
+[ 2014-03-05T17:28:19+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T17:28:19+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001105s ]
+[ 2014-03-05T17:28:19+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001201s ]
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.183931s ]
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.179421s ]
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run LocationTemplate Behavior [ RunTime:0.003515s ]
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_template ] --END-- [ RunTime:0.003633s ]
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ParseTemplate Behavior [ RunTime:0.029761s ]
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_parse ] --END-- [ RunTime:0.029877s ]
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ContentReplace Behavior [ RunTime:0.001242s ]
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run TokenBuild Behavior [ RunTime:0.001148s ]
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001038s ]
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ShowRuntime Behavior [ RunTime:0.001241s ]
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004854s ]
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ShowPageTrace Behavior [ RunTime:0.001235s ]
+[ 2014-03-05T17:28:26+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_end ] --END-- [ RunTime:0.001299s ]
+[ 2014-03-05T17:28:50+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T17:28:50+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001096s ]
+[ 2014-03-05T17:28:50+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001189s ]
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.273999s ]
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.272973s ]
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run LocationTemplate Behavior [ RunTime:0.003491s ]
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_template ] --END-- [ RunTime:0.003619s ]
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ParseTemplate Behavior [ RunTime:0.031225s ]
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_parse ] --END-- [ RunTime:0.031334s ]
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ContentReplace Behavior [ RunTime:0.001045s ]
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run TokenBuild Behavior [ RunTime:0.000951s ]
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000914s ]
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ShowRuntime Behavior [ RunTime:0.001022s ]
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004086s ]
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ShowPageTrace Behavior [ RunTime:0.001013s ]
+[ 2014-03-05T17:28:57+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_end ] --END-- [ RunTime:0.001066s ]
+[ 2014-03-05T17:44:31+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T17:44:31+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001430s ]
+[ 2014-03-05T17:44:31+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001585s ]
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.189146s ]
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.189763s ]
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run LocationTemplate Behavior [ RunTime:0.003561s ]
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_template ] --END-- [ RunTime:0.003704s ]
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | NOTIC: [8] Use of undefined constant com - assumed 'com' d046431aa157c89f3a1c30c426be003b.php 第 28 行.
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | NOTIC: [8] Undefined variable: checkbox d046431aa157c89f3a1c30c426be003b.php 第 28 行.
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ParseTemplate Behavior [ RunTime:0.027133s ]
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_parse ] --END-- [ RunTime:0.027223s ]
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ContentReplace Behavior [ RunTime:0.001228s ]
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run TokenBuild Behavior [ RunTime:0.001045s ]
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000853s ]
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ShowRuntime Behavior [ RunTime:0.001032s ]
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004332s ]
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Run ShowPageTrace Behavior [ RunTime:0.001010s ]
+[ 2014-03-05T17:44:37+08:00 ] /yuming/?keyword=1234&org=com | INFO: Tag[ view_end ] --END-- [ RunTime:0.001063s ]
+[ 2014-03-05T17:44:40+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T17:44:40+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001087s ]
+[ 2014-03-05T17:44:40+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001179s ]
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172687s ]
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.171836s ]
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run LocationTemplate Behavior [ RunTime:0.003520s ]
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003638s ]
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | NOTIC: [8] Use of undefined constant com - assumed 'com' d046431aa157c89f3a1c30c426be003b.php 第 28 行.
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | NOTIC: [8] Undefined variable: checkbox d046431aa157c89f3a1c30c426be003b.php 第 28 行.
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run ParseTemplate Behavior [ RunTime:0.023526s ]
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.023616s ]
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run ContentReplace Behavior [ RunTime:0.001008s ]
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run TokenBuild Behavior [ RunTime:0.000941s ]
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001007s ]
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run ShowRuntime Behavior [ RunTime:0.001041s ]
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004164s ]
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001020s ]
+[ 2014-03-05T17:44:46+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001074s ]
+[ 2014-03-05T18:02:30+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T18:02:30+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001125s ]
+[ 2014-03-05T18:02:30+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001221s ]
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.172777s ]
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.172049s ]
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | NOTIC: [8] Undefined index:  cn IndexAction.class.php 第 12 行.
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | NOTIC: [8] Undefined index:  net IndexAction.class.php 第 13 行.
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run LocationTemplate Behavior [ RunTime:0.003545s ]
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003668s ]
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run ParseTemplate Behavior [ RunTime:0.031823s ]
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.031974s ]
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run ContentReplace Behavior [ RunTime:0.002421s ]
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run TokenBuild Behavior [ RunTime:0.001442s ]
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000996s ]
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run ShowRuntime Behavior [ RunTime:0.001171s ]
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006294s ]
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001155s ]
+[ 2014-03-05T18:02:37+08:00 ] /yuming/?keyword=1234&com=1 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001216s ]
+[ 2014-03-05T18:02:40+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T18:02:40+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001101s ]
+[ 2014-03-05T18:02:40+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001194s ]
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.179127s ]
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.179196s ]
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | NOTIC: [8] Undefined index:  cn IndexAction.class.php 第 12 行.
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Run LocationTemplate Behavior [ RunTime:0.003540s ]
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003660s ]
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Run ParseTemplate Behavior [ RunTime:0.027183s ]
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.027292s ]
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Run TokenBuild Behavior [ RunTime:0.000937s ]
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000838s ]
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Run ShowRuntime Behavior [ RunTime:0.001007s ]
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003931s ]
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000997s ]
+[ 2014-03-05T18:02:46+08:00 ] /yuming/?keyword=1234&com=1&net=1 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001050s ]
+[ 2014-03-05T18:02:56+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Tag[ app_begin ] --START--
+[ 2014-03-05T18:02:56+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000507s ]
+[ 2014-03-05T18:02:56+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000601s ]
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | SQL: SHOW COLUMNS FROM `domain` [ RunTime:0.179991s ]
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | SQL: SELECT `id`,`name`,`org`,`uts` FROM `domain` ORDER BY id asc LIMIT 30   [ RunTime:0.179397s ]
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Tag[ view_template ] --START--
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Run LocationTemplate Behavior [ RunTime:0.000887s ]
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001002s ]
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Tag[ view_parse ] --START--
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Run ParseTemplate Behavior [ RunTime:0.019745s ]
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019885s ]
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Tag[ view_filter ] --START--
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Run ContentReplace Behavior [ RunTime:0.000662s ]
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Run TokenBuild Behavior [ RunTime:0.000632s ]
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000461s ]
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Run ShowRuntime Behavior [ RunTime:0.000825s ]
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002871s ]
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Tag[ view_end ] --START--
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000782s ]
+[ 2014-03-05T18:03:02+08:00 ] /yuming/?keyword=1234&com=1&cn=1&net=1 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000885s ]

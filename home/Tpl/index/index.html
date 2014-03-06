@@ -1,5 +1,6 @@
 <include file="./home/Tpl/common/header.html" />
 <body>
+<script type="text/javascript">
 	<div id="wrapper" style="margin:0 auto;">
 		<div id="header">
 			<div class="logo">
@@ -7,46 +8,55 @@
 					<img src="public/images/logo.png">
 				</a>
 			</div>
-<!-- 			<ul class="navigater">
-				<li><a href="">首页</a></li>
-				<li><a href="">域名查询</a></li>
-			</ul> -->
-		</div>		
-		<div>
-			<form action="">
-				<input type="text" name="keyword" value="{$keyword}" />
-				<br/>
-				后缀：
-				<input type="checkbox" name="com" value="1" <if condition="$com eq 1">checked</if> />com
-				<input type="checkbox" name="cn" value="1" <if condition="$cn eq 1">checked</if> />cn
-				<input type="checkbox" name="net" value="1" <if condition="$net eq 1">checked</if> />net
-				<br/>
-				<input type="submit" />
-			</form>
+		</div>	
+	 	<ul class="navigater">
+			<li><a href="">最新视频</a></li>
+			<li><a href="">点击排行</a></li>
+		</ul>
+		<div class="pageContent block">
+			<div class="searchBar">
+			<div>搜索未被注册的域名</div>
+				<form action="" class="search">
+					<input type="text" name="keyword" value="{$keyword}" class="keyword"/>
+					<select name="org" class="org">
+						<option value="">后缀</option>
+						<option value="com" <if condition="$org == 'com'">selected</if>>com</option>
+						<option value="cn" <if condition="$org == 'cn'">selected</if>>cn</option>
+						<option value="net" <if condition="$org == 'net'">selected</if>>net</option>
+					</select>
+					<input type="submit" class="submit"/>
+				</form>
+				<div><a href="">AABB</a>|<a href="">AABB</a>|<a href="">AABB</a></div>
+			</div>
 			<!-- 域名26网 -->
 			<!-- 查询未注册域名的专门网站 -->
 			<!-- 不知道用什么域名好？想到的域名都被注册了？还在费脑汁想么，全部列出可用的任你选 -->
-			<table cellspacing="1" class="domainList">
-				<tr>
-					<!-- <th>序号</th> -->
-					<th width="122px">域名</th>
-					<th width="260px">机构名</th>
-					<th width="240px">更新时间</th>
-					<th>操作</th>
-					<th>点击次数</th>
-				</tr>
-				<foreach name="domainList" item="domain">
-					<if condition="$key % 2 eq 0"><tr class="odd"><else /><tr></if>
-						<!-- <td>{$domain.id}</td> -->
-						<td>{$domain.name}</td>
-						<td>{$domain.org}</td>
-						<td>{$domain.uts}</td>
-						<td></td>
-						<td></td>
-				    </tr>
-				</foreach>
-			</table>
-			<div class="result page">{$page}</div>
+			<div class="pageLeft">
+				<div class="block" style="height:200px; border:solid 1px #ccc;">
+				123
+				</div>
+			</div>
+			<div class="pageRight">
+				<table cellspacing="0" class="domainList block">
+					<tr>
+						<!-- <th>序号</th> -->
+						<th width="122px">域名</th>
+						<th width="260px">机构名</th>
+						<th width="240px">更新时间</th>
+						<th>操作</th>
+					</tr>
+					<foreach name="domainList" item="domain">
+						<if condition="$key % 2 eq 0"><tr class="odd"><else /><tr></if>
+							<!-- <td>{$domain.id}</td> -->
+							<td>{$domain.name}</td>
+							<td>{$domain.org}</td>
+							<td>{$domain.uts}</td>
+							<td></td>
+					    </tr>
+					</foreach>
+				</table>
+				<div class="result page">{$page}</div>
+			</div>
 		</div>
 		
 		<div>

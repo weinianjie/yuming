@@ -4,6 +4,27 @@
 <title>视频列表</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="" />
-<!-- <link type="text/css" rel="stylesheet" href="/yuming/public/styles/default.css" /> -->
 <link type="text/css" rel="stylesheet" href="public/styles/default.css" />
+<script type="text/javascript" src="public//js/jquery.js"></script>
+<script type="text/javascript" src="public//js/event.js"></script>
+<script type="text/javascript" src="public//js/init.js"></script>
+<script type="text/javascript">
+    if (typeof Globals == "undefined" || !Globals) {
+	    var Globals = {};
+	    Globals.objs = {};
+	    Globals.define = {};
+    }
+    function init() {
+        var def = Globals.define;
+        /*def.islogin = ${(sessionScope.hostid==null)?'false':'true'};
+        def.urlPrefix = "${applicationScope.urlPrefix}";
+        def.urlStatic = "${applicationScope.urlStatic}";
+        def.headPrefix = "${applicationScope.headPrefix}";
+        def.layoutPhotoLimit = "${applicationScope.layoutPhotoLimit}";
+        def.innerPhotoLimit = "${applicationScope.innerPhotoLimit}";
+        def.communityPhotoLimit = "${applicationScope.communityPhotoLimit}";
+        def.debug = true;*/
+    }
+    init()
+</script>
 </head>
